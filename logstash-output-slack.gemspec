@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = 'logstash-output-slack'
-  s.version         = '0.1.4'
+  s.version         = '0.1.5'
   s.licenses        = ['MIT','Apache License (2.0)']
   s.summary         = "Write events to Slack"
   s.description     = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   # Gem dependencies
 
   s.platform = "java"
-  s.add_runtime_dependency "logstash-core", "< 3.0.0", ">= 1.4.0"
+  s.add_runtime_dependency "logstash-core", ">= 1.4.0"
   s.add_runtime_dependency "logstash-codec-plain", "< 2.1", ">= 1.0.0"
   s.add_runtime_dependency "rest-client", "< 2.0", ">= 1.8.0"
   s.add_development_dependency "logstash-devutils", "~> 0.0.16"
