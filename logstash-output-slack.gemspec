@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.licenses        = ['MIT','Apache-2.0']
   s.summary         = "Write events to Slack"
   s.description     = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
-  s.authors         = ["Ying Li"]
-  s.email           = 'cyli@ying.com'
-  s.homepage        = "https://github.com/cyli/logstash-output-slack"
+  s.authors         = ["Seung-gi Lim"]
+  s.email           = 'sglim@wisefour.com'
+  s.homepage        = "https://github.com/w4-sglim/logstash-output-slack"
   s.require_paths   = ["lib"]
 
   # Files
