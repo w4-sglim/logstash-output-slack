@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.platform = "java"
   s.add_runtime_dependency "logstash-core", '= 5.0.0'
   s.add_runtime_dependency "logstash-codec-plain", '~> 3.0', '>= 3.0.2'
-  s.add_runtime_dependency "rest-client", '~> 2.0'
+  s.add_runtime_dependency "rest-client", "< 2.0", ">= 1.8.0"
   s.add_development_dependency "logstash-devutils", '~> 1.1'
   s.add_development_dependency 'logstash-core-plugin-api', '~> 2.1', '>= 2.1.17'
   s.add_development_dependency "logstash-filter-json", '~> 3.0', '>= 3.0.2'
